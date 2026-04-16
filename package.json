@@ -1,0 +1,11 @@
+{
+    "name": "ping-bot",
+    "version": "1.0.0",
+    "main": "pingBot.js",
+    "scripts": {
+      "start": "node pingBot.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
