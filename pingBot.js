@@ -6,8 +6,8 @@ const app = express();
 // Railway gives PORT automatically
 const PORT = process.env.PORT || 3000;
 
-const URL = "https://your-backend.onrender.com/ping/";
-const INTERVAL = 10 * 60 * 1000;
+const URL = "https://backend-django-gkwn.onrender.com/ping/";
+const INTERVAL = 14 * 60 * 1000;
 
 function pingServer() {
   const time = new Date().toLocaleTimeString();
